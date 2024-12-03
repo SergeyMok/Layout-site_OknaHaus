@@ -1,0 +1,147 @@
+.about-company__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;    
+}
+
+.about-company__button {
+    height: 39px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: #2F2F51;
+    background: none;
+    border: none;
+}
+
+.about-company__button:hover{
+    background-color: #EF7F04;
+    color: #ffffff; 
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+.about-company__button_active:hover {
+    background-color: #EF7F04;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.about-company__card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 35px auto 68px;
+    border-radius: 3px;
+    width: 1200px;
+}
+
+
+
+.about-company__img {
+    display: block;
+    width: 100%;
+}
+
+
+.about-company__logo {
+    width: 199px;
+    height: 140px;
+    margin: 46px 50px;
+}
+
+.about-company__text {
+    margin-left: 248px;
+    width: 300px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+}
+
+
+.about-company__benefit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 30px;    
+}
+
+
+
+.about-company__benefit-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    
+}
+
+.about-company__benefit-decription {
+    width: 215px;
+    height: 114px;
+    
+    
+}
+
+.about-company__benefit-header {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    
+}
+
+.about-company__benefit-text {
+    line-height: 26px;
+    
+}
+
+@media (max-width:992px) {
+    .about-company__card {
+      max-width: 100%;
+      width: 880px;
+    }
+    .about-company__benefit {
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .about-company__logo {
+        margin: 46px 0 61px 28px;
+    }
+    .about-company__img {
+        display: none;
+    }
+    .btn-about {
+        width: 100%;
+        justify-content: center;
+    }
+    .about-company__benefit {
+        width: 880px;
+        gap: 70px;
+    }
+    .about-company__text {
+        margin-left: 104px;
+    }
+    .about-company__picture {
+        width: 447px;
+    }
+    
+  }
+  @media (min-width: 993px) {
+    .about-company__img2 {
+        display: none;
+    }
+  }
+
+

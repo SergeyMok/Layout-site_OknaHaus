@@ -1,0 +1,133 @@
+.form {
+    background-image: url(../Images/form/Background-form.svg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    
+}
+
+.form__inside {
+    height: 562px;
+    display: flex;
+    justify-content: center;
+}
+
+.form__all {
+    width: 600px;
+    height: 562px;
+    margin-right: 25px;
+    line-height: 43px;
+}
+
+.form__name {
+    font-weight: 700;
+    font-size: 24px;
+    color: #EF7F04;
+    padding-top: 120px;
+}
+
+.form__description {
+    font-weight: 100;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.form__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    width: 161px;
+    color: #FFFFFF;
+}
+
+.form__cards {
+    display: flex;
+    gap: 0 60px;
+    padding-top: 20px;
+}
+
+.form-box {
+    width: 406px;
+    height: 428px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 71px;
+    padding-top: 43px;
+    display: block;
+    text-align: center;
+}
+
+.form-box__title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2F2F51;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.input-text {
+    font-family: 'Roboto';
+    background-color: #E2E2E2;
+    border: 0;
+    border-radius: 3px;
+    width: 322px;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 12px 18px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.button-form__item {
+    background-color: #EF7F04;
+    border-radius: 3px;
+    color: #FFFFFF;
+    border: 0;
+    width: 199px;
+    height: 55px;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 15px;
+    
+}
+
+.button-form__item:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+.button-form {
+    display: flex;
+    justify-content: center;
+}
+
+.roulette {
+    position: relative;
+    right: 88px;
+    bottom: 10px;
+}
+
+
+.checkbox {
+    width: 320px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 12px;
+       
+}
+
+
+
+@media (max-width:992px){
+    .form-box {
+        display: none;
+    }
+        
+}
+
+
+
+
